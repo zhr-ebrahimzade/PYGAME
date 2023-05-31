@@ -1,0 +1,34 @@
+from pygame.math import Vector2 as vec
+
+FPS = 60
+# screen size
+WINDOW_WIDTH = 610
+WINDOW_HEIGHT = 670
+TOP_BOTTOM_BUFFER = 50
+MAZE_WIDTH = WINDOW_WIDTH - TOP_BOTTOM_BUFFER
+MAZE_HEIGHT = WINDOW_HEIGHT - TOP_BOTTOM_BUFFER
+ROWS=30
+COLUMNS=28
+# colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+# fonts
+PAC_MAN_FONT = "fonts\\PartyConfettiRegular-eZOn3.ttf"
+
+
+# custom colors
+GRAY = (224, 224, 224)
+COIN_COLOR=(255, 212, 128)
+# text sizes
+PAC_MAN = 100
+HIGHEST_SCORE = 30
+
+# player
+# PLAYER_STARTING_POS = 0
+PLAYER_COLOR=YELLOW
